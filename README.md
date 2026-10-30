@@ -15,9 +15,10 @@ Application mobile (PWA) pour lire des vidéos Cloudinary et Google Drive.
 Dans `index.html`, copie une ligne dans `VIDEOS` et change `nom`, `createur`, `lien`.
 
 ## Mettre à jour l'appli
-Après une modification, change `talcowatcher-v2` en `talcowatcher-v3` dans `sw.js`.
+Après une modification, change `talcowatcher-v3` en `talcowatcher-v4` dans `sw.js`.
 
 ## Si l'installation n'apparaît pas
 - Il faut ouvrir le lien HTTPS dans **Chrome** (Android) ou **Safari** (iPhone), pas dans une appli (Discord, Instagram, Claude...).
-- Tous les fichiers du dossier doivent être à la racine du dépôt, pas seulement `index.html`.
+- Dézippe avant d'envoyer sur GitHub (ne pas envoyer le .zip tel quel). `index.html` suffit pour installer ; `sw.js` ajoute le mode hors-ligne.
+- Le bas de la page d'accueil affiche « TalcoWatcher v3 » : si tu vois autre chose, tu ouvres une ancienne version.
 - Un bouton « Installer » apparaît en haut de la page quand l'installation est possible.
